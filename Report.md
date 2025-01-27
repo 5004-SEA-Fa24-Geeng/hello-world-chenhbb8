@@ -90,7 +90,8 @@ The program starts in the main() method of the AlohaWorld class, where the clien
 
 6. Describe Test Driving Development (TDD) in your own words. 
 
-    Same as above - short answer    
+   
+      Write test code for the main code we write, give some expected results for some methods in the main code, and check the feasibility of the code by comparing the expected results with the actual output results    
 
 7. Go to the [Markdown Playground](MarkdownPlayground.md) and add at least 3 different markdown elements you learned about by reading the markdown resources listed in the document. Additionally you need to add a mermaid class diagram (of your choice does not have to follow the assignment. However, if you did use mermaid for the assignment, you can just copy that there). Add the elements into the markdown file, so that the formatting changes are reserved to that file. 
 
