@@ -59,11 +59,17 @@ The program starts in the main() method of the AlohaWorld class, where the clien
 
 1. List three additional java syntax items you didn't know when reading the code.  (make sure to use * for the list items, see example below, the backtick marks are used to write code inline with markdown)
    
-   * (example) `final class`
+   *  `final class`
+   *  `String greeting = asciiOnly ? asciiGreeting : unicodeGreeting;`
+   *  `Scanner`
+   *  `instanceof`
 
 2. For each syntax additional item listed above, explain what it does in your own words and then link a resource where you figured out what it does in the references section. 
 
     * (example) The `final` keyword when used on a class prevents the class from being subclassed. This means that the class cannot be extended by another class. This is useful when you want to prevent a class from being modified or extended[^1] . It is often the standard to do this when a class only contains static methods such as driver or utility classes. Math in Java is an example of a final class[^2] .
+    * `String greeting = asciiOnly ? asciiGreeting : unicodeGreeting;`, This pops up when I write greeting class, Now I know "?" for condition, if true, execute left side of ":", if false, the right side.
+    * `Scanner` is from java.util package, and is used to get user input
+    * `instanceof` checks whether an object is an instance of a specific class or an interface, the return value is either true or false.
 
 3. What does `main` do in Java? 
 
