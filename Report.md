@@ -163,6 +163,8 @@ These questions require deeper thinking of the topic. We don't expect 100% corre
 1. Why would we want to keep interaction with the client contained to ConsoleView?
 
 
+      I think it's like organizing things, we put the same kind of items together. In this project, the ConsoleView assumes the responsibility of interacting with the client. All the related codes are placed in the ConsoleView, which will make the whole project more logical. When problems related to the ConsoleView are encountered, it is only necessary to solve them in the ConsoleView. It also does not affect other classes. In addition, this is also helpful for future debugging. If you encounter related problems, you can return to the ConsoleView for the first time to solve them, which helps the debugging efficiency
+
 2. Right now, the application isn't very dynamic in that it can be difficult to add new languages and greetings without modifying the code every time. Just thinking programmatically,  how could you make the application more dynamic? You are free to reference Geeting.java and how that could be used in your design.
 
 
