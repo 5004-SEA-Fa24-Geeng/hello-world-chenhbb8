@@ -71,18 +71,21 @@ The program starts in the main() method of the AlohaWorld class, where the clien
     * `Scanner` is from java.util package, and is used to get user input
     * `instanceof` checks whether an object is an instance of a specific class or an interface, the return value is either true or false.
 
-3. What does `main` do in Java? 
+3. What does `main` do in Java?
 
-    Go ahead and answer the question as a short paragraph / few sentences. Notice the indent, this is valid because it is a list item. (erase this line before writing.)
+   
+      Main is the main program, which can be understood as the backbone of an APP and is where the program starts running
 
 
 4. What does `toString()` do in Java? Why should any object class you create have a `toString()` method?
 
-    Same as above - short answer
+
+      The return type of toString is String, so its purpose is to convert the object to a String representation. This is very convenient and intuitive for output
 
 5. What is javadoc style commenting? What is it used for? 
 
-    Same as above - short answer
+    
+      It's like /**  */ and @param and @return, like these, Programmers can add these comments to explain what each part of the code does, making it easier for others to read. Its main purpose is to generate a web document file, which  provides a clear, organized reference for other developers who use or maintain the code. Javadoc comments also improve code readability and help ensure that the purpose and behavior of code elements are well-documented, making it easier to understand and use the code
 
 
 6. Describe Test Driving Development (TDD) in your own words. 
