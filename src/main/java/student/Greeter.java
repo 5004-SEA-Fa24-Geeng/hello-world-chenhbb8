@@ -192,7 +192,7 @@ public class Greeter {
         if (locality < 1 || locality >= localityList.size()) {
             return "USA";
         }
-        return localityList.get(locality);
+        return localityList.get(locality -1); //List from [0], so the Locality index: [0,1,2,3}
     }
 
     /**
