@@ -95,6 +95,65 @@ The program starts in the main() method of the AlohaWorld class, where the clien
 
 7. Go to the [Markdown Playground](MarkdownPlayground.md) and add at least 3 different markdown elements you learned about by reading the markdown resources listed in the document. Additionally you need to add a mermaid class diagram (of your choice does not have to follow the assignment. However, if you did use mermaid for the assignment, you can just copy that there). Add the elements into the markdown file, so that the formatting changes are reserved to that file. 
 
+# Heading 1
+
+This is a paragraph with a line break.<br>
+This is the next line.
+
+---
+
+## 3 Elements I learned about Markdown
+
+- Space between "#" and Heading
+- Change line "br"
+-  put blank lines before and after horizontal rules
+
+***
+
+
+```mermaid
+---
+title: Aloha World UML
+---
+classDiagram
+    direction LR
+    AlohaWorld --> Greeter 
+    AlohaWorld --> ConsoleView : uses
+    ConsoleView --> Greeter : uses
+    class AlohaWorld {
+        -AlohaWorld()
+        +main(String[] args)
+    }
+    class Greeter {
+        -String name
+        -int locality
+        -static List~String~ localityList
+        -static final int HAWAII
+        -static final int CHINA
+        -static final int ITALY
+        -static final int DEFAULT_LOCALITY
+        +Greeter(String name)
+        +Greeter(String name, int locality)
+        +getName() String
+        +getLocality() int
+        +setLocality(int locality)
+        +greet() String
+        +greet(boolean asciiOnly) String
+        +hashCode() int
+        +equals(Object obj) boolean
+        +toString() String
+        +getLocalityList() List~String~
+    }
+    class ConsoleView {
+        -Scanner SCANNER
+        -List~String~ LOCALITY_OPTIONS
+        -ConsoleView()
+        +getName() String
+        +getLocality() int
+        +checkRunAgain() boolean
+        +printGreeting(String greeting)
+    }
+```
 
 ## Deeper Thinking Questions
 
